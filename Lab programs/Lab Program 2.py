@@ -1,7 +1,7 @@
 # Name: Shriyans Gandhi
 # Class:12
 # Date of executiom: 15/6/21
-#Write a Program to accept a positive number and find square, cube and root
+#Write a Program to accept a positive number and find square, cube and root using user-defined functions
 def function(a):
     square=a**2
     cube=a**3

@@ -2,7 +2,7 @@
 # Name: Shriyans Gandhi
 # Class:12
 # Date of executiom: 15/6/21
-#Write a Program to perform all arithmetic operations on 2 numbers
+# Write a Program to perform all arithmetic operations on 2 numbers using a user-defined function.
 
 def arithmetic(a,b):
     sum= a+b

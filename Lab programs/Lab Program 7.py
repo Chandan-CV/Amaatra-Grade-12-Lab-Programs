@@ -1,8 +1,8 @@
 # Name: Shriyans Gandhi
 # Class:12
 # Date of executiom: 29/6/21
-# Write a Program which accepts a list having even number of elements and swpas the elments at adjacent posotion using user-defined functions
-#Example: A= [10,20,30,40,50,60] >>> [20,10,40,30,60,50]
+# Write a Program which accepts a list having even number of elements and swpas the elments at adjacent posotion using user-defined functions.
+# Example: A= [10,20,30,40,50,60] >>> [20,10,40,30,60,50]
 
 def swap(swap_list):
     for x in range(0,len(swap_list)-1,2):

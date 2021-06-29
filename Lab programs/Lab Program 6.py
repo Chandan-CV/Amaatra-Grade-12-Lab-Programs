@@ -1,8 +1,8 @@
 # Name: Shriyans Gandhi
 # Class:12
 # Date of executiom: 29/6/21
-# Write a Program to check if an inputted number is a perfect number
-#Perfect numbers are numbers whose sum of multiples (excluding itself) is the number. Example: 6
+# Write a Program to check if an inputted number is a perfect number using user-defined functions
+# Perfect numbers are numbers whose sum of multiples (excluding itself) is the number. Example: 6
 
 n = int(input("enter the number"))
 sum=0

@@ -1,7 +1,7 @@
 # Name: Shriyans Gandhi
 # Class:12
 # Date of executiom: 15/6/21
-#Write a Program to print even and odd numbers between certain limits
+# Write a Program to print even and odd numbers between certain limits using user-defined functions
 
 def print_numbers(lower_limit,upper_limit):
     
