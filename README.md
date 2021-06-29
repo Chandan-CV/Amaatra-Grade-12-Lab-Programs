@@ -92,7 +92,7 @@ __step 7:__ commit the changes, `git commit -m "[ENTER THE NAME  OF YOUR COMMIT]
 
 __step 8:__  add a remote server by running `git remote add origin https://github.com/[YOUR_GITHUB_USERNAME]/Amaatra-Grade-12-Lab-Programs` 
 
-__step 9:__  Push the code by running `git push -u origin master`
+__step 9:__  Push the code by running `git push -u origin`
 
 __step 11:__ Send a pull request
 
