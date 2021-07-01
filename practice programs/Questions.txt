@@ -1,0 +1,18 @@
+1. Wap to compute x^n of given 2 integers 
+2 . WAP to find if a no. is odd or even.
+3. accept % of the student and display grade accordingly
+    >85 A
+    >70 and <=85 B
+    >60 and <=70 C
+    >45 and <=60 D
+<=45 E
+4. fibonacci series
+5. prime numbers upto a certain limit
+7. WAP to print the sum of series 1+ x/1! + x^2/2!+...........+ x^n/n! 
+8. WAP to print the pattern 
+1
+12
+123
+
+9. check if a string is pallindrome or not
+10.WAP a program that counts the digits, alphabets,upper case, lower case and special characters
