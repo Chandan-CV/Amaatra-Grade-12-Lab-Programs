@@ -1,0 +1,3 @@
+this is the sample text for
+
+this should be there in the target folder
