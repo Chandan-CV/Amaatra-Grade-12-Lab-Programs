@@ -1,0 +1,5 @@
+f = open("Class Illustrations/seekFunction/TextFile.txt","r")
+print(f.tell())
+f.seek(3)
+print(f.read(3))
+print(f.tell())
