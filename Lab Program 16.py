@@ -2,7 +2,7 @@
 # Class:12
 # Date of executiom: 27/7/21
 # Write a Program to read the contents of a file and replace all spaces with #
-f=open("abc.txt","r")
+f=open("Text Files/Lab Program 16/input.txt","r")
 string=f.read()
 
 def replace(string):
@@ -13,8 +13,7 @@ def replace(string):
         word+=x
     return word
 word=replace(string)
-print(word)
-fw=open("abc.txt","w")
+fw=open("Text Files/Lab Program 16/output.txt","w")
 fw.write(word)
 
     

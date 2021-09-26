@@ -2,10 +2,9 @@
 # Class:12
 # Date of executiom: 27/7/21
 # Write a Program to print the words starting with "a"
-f=open("abc.txt","r")
-string=f.read()
+f=open("Text Files/Lab Program 15/Lab Program 15.txt","r")
 count=0
-for x in string.split():
+for x in f.read().split():
     if x[0] in ["a","A"]:
         print(x)
         count+=1

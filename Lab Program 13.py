@@ -3,7 +3,7 @@
 # Date of executiom: 29/6/21
 # Write a Program to count the number of vowels in a text file
 
-f=open("abc.txt","r")
+f=open("Text Files/Lab program 13/abc.txt","r")
 string=f.read().lower()
 count=0
 for x in string:

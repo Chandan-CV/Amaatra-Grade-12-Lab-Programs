@@ -1,21 +1,20 @@
 # Name: Shriyans Gandhi
 # Class:12
 # Date of executiom: 27/7/21
-# Write a Program to remove the letter 'a' in a file and write it to another file.
+# Write a Program to remove the lines with the letter 'a' in a file and write it to another file.
 
-f=open("abc.txt","r")
+f=open("Text Files/Lab Program 20/input.txt","r")
 readlist=f.readlines()
-#print(readlist)
 
 def func(readlist):
-    newlist=readlist
+    newlist=[]
     for x in readlist:
-        if "a" in x.lower():
-            newlist.remove(x)
+        if "a" not in x.lower():
+            newlist.append(x)
     return newlist
 newlist=func(readlist)
 
-fw=open("abc2.txt","w")
+fw=open("Text Files/Lab Program 20/output.txt","w")
 fw.writelines(newlist)
 
     

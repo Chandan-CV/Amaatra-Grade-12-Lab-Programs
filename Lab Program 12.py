@@ -4,7 +4,7 @@
 # Write a Program to read a file named "abc.txt" and copy these contents into another file name "xyz.txt"
 
 def move():
-    f=open("Text Files/Lab program 12/abc.txt","r")
+    f=open("Text Files/Lab Program 12/abc.txt","r")
     f_copy=open("Text Files/Lab program 12/xyz.txt","w")
     while True:
         c=f.read(1)

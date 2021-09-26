@@ -3,24 +3,24 @@
 # Date of executiom: 27/7/21
 # Write a Program to read data from a file and show the various file functions.
 
-f=open("abc.txt","r")
+f=open("Text Files/Lab Program 17/Lab Program 17.txt","r")
 print(f.name)
 
-f_contents=f.read()
-print(f_contents)
+print(f.read())
 
-f_contents=f.readline()
-print(f_contents)
+f.seek(0)
+print(f.readline())
 
-f_contents=f.readlines()
-print(f_contents)
+f.seek(0)
+print(f.readlines())
 
-f_contents=f.read(5)
-print(f_contents)
+f.seek(0)
+print(f.read(1))
 
-for line in f:
-    print(line,end="")
-
+f.seek(0)
+for x in f:
+    print(x,end = "")
+print()
 print(f.tell())
 
 
