@@ -8,6 +8,9 @@ You can use this link to look at the code or to copy paste the code.
 
 If you are interested in contributing to this repository, you need to make a __github account__ and scroll down to checkout the contribution guidelines.
 
+# Sample lab prog:
+![WhatsApp Image 2021-10-02 at 6 42 04 PM](https://user-images.githubusercontent.com/37525954/135717925-469f4dcd-63c2-434c-a0ea-479309ffa609.jpeg)
+
 
 # Asking doubts, giving suggestions, raising issues with the code
 
