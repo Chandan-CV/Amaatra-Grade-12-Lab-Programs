@@ -1,5 +1,8 @@
 #Remove all the lines that contain the character 'a' in a file and write it to another file.
 #july 27
+#Name:
+#Date of exceution:
+#Grade:
 fo=open("lab.txt","w")
 fo.write("hi lithika ")
 fo.write ("\na, an and the articles")

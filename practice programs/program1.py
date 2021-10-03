@@ -1,5 +1,7 @@
 #Wap to compute x^n of given 2 integers , using user defined functions
-
+#Name:
+#Date of exceution:
+#Grade:
 
 def calc (x,n):
     return x**n

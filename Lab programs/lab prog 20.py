@@ -1,5 +1,8 @@
 #wap to read a particular data from text file and count the occurance of a partiular word 
 #july27
+#Name:
+#Date of exceution:
+#Grade:
 f=open("abc.txt",'r')
 read=f.readlines()
 f.close()

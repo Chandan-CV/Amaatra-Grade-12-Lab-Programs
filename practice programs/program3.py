@@ -4,6 +4,9 @@
 #     >60 and <=70 C
 #     >45 and <=60 D
 # <=45 E
+#Name:
+#Date of exceution:
+#Grade:
 
 def grade(per):
     if (per>85):

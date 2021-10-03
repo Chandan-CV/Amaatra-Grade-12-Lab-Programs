@@ -1,4 +1,7 @@
 #open a file and use it in append mode, show the working of writelines()
+#Name:
+#Date of exceution:
+#Grade:
 f = open("Lab programs/Program18/text.txt","a")
 
 

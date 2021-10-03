@@ -1,5 +1,7 @@
 # Wap to accept count the number of alphabets in story.txt
-
+#Name:
+#Date of exceution:
+#Grade:
 f = open("Lab programs/prog11/story.txt","r")# I use linux, so I use / if you use windows, use \
 s = f.read() 
 s =s.replace("\n","")

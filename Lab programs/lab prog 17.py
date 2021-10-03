@@ -1,5 +1,8 @@
 #wap to read data from a text file and show file handling functions
 #july 27
+#Name:
+#Date of exceution:
+#Grade:
 f=open("lab.txt",'r')
 print(f.name)
 fcontents=f.read()

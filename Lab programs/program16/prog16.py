@@ -1,5 +1,7 @@
 #WAP to read the contents of a file and replace all space characters with #
-
+#Name:
+#Date of exceution:
+#Grade:
 f = open("Lab programs/program16/textfile.txt","r")
 s = f.read()
 

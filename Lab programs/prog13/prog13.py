@@ -1,4 +1,7 @@
 # count the number of vovels in the text file
+#Name:
+#Date of exceution:
+#Grade:
 f =open("Lab programs/prog13/progText.txt","r")
 
 s = f.read()

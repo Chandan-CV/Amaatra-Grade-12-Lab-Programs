@@ -1,5 +1,7 @@
 # Wap user def func to perform all arithmatic op on 2 numbers
-
+#Name:
+#Date of exceution:
+#Grade:
 def op(a,b):
     print (a,"+",b,"=",a+b)
     print (a,"-",b,"=",a-b)

@@ -1,5 +1,7 @@
 # 1wap to calc (a+b) or (a-b)^3 using user defined function. ask the choice from the user
-
+#Name:
+#Date of exceution:
+#Grade:
 def neg():
     a= int(input("enter the first number"))
     b= int(input("enter the first number"))

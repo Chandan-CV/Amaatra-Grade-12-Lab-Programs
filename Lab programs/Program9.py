@@ -1,5 +1,7 @@
 #Wap to accept string list and print words starting with 'A' or 'a'
-
+#Name:
+#Date of exceution:
+#Grade:
 s = input("enter the list of words").split()
 
 def Aword():

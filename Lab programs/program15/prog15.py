@@ -1,5 +1,7 @@
 # write a program to read a file, count and print the total words starting with A in the file
-
+#Name:
+#Date of exceution:
+#Grade:
 f = open("Lab programs/program15/textfile.txt","r")
 s = f.read()
 s = s.lower()
