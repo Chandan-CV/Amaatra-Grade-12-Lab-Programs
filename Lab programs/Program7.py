@@ -1,3 +1,7 @@
+#WAP to interchange the consecutive elements of an array eg [1,2,3,4] should become [2,1,4,3]
+#Name: Chandan
+#Date of excecution: June 29, 2021
+#Grade: 12
 def fun(A):
     l=len(A)
     for i in range(0,l,2):
