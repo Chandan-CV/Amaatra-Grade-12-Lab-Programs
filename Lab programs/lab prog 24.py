@@ -2,6 +2,9 @@
 #[A] user defined function createfile() to input and add records 
 # [B] createrec() and return count no of books by the given author 
 #date: 26 8  21 
+#Name:
+#Date of exceution:
+#Grade:
 import pickle
 def createfile():
     f=open("book.dat", 'ab')
