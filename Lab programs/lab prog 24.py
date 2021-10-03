@@ -3,15 +3,15 @@
 # [B] createrec() and return count no of books by the given author 
 #date: 26 8  21 
 import pickle
-def createfile()
-f=open("book.dat", 'ab')
-bookNo = int(input("bookNo"))
-book_name= (input("book name"))
-author= input("author")
-price=int(input("book price"))
-rec=[bookNo,book_name,author,price]
-pickle.dump(rec,f)
-f.close 
+def createfile():
+    f=open("book.dat", 'ab')
+    bookNo = int(input("bookNo"))
+    book_name= (input("book name"))
+    author= input("author")
+    price=int(input("book price"))
+    rec=[bookNo,book_name,author,price]
+    pickle.dump(rec,f)
+    f.close 
 
 def countrec(author):
     f=open("book.dat",'rb')
@@ -19,15 +19,16 @@ def countrec(author):
     try:
         while True:
             rec= pickle.load(f)
-            if author==rec[2]
-            num=num+1
-            print(rec[0],rec[1],rec[2],rec[3])
+            if author==rec[2]:
+                num=num+1
+                print(rec[0],rec[1],rec[2],rec[3])
 
     except:
-        fobj.close()
+        f.close()
         return num
 count=int(input("enter total number of books"))
 for i in range(count):
     createfile()
-n=countrec("james")
+find = input("enter the name of the author to be searched")
+n=countrec(find)
 print("total rec", n)
