@@ -3,7 +3,7 @@
 #Name:
 #Date of exceution:
 #Grade:
-f=open("abc.txt",'r')
+f=open("Lab programs/prog20/abc.txt",'r')
 read=f.readlines()
 f.close()
 t=0
@@ -11,7 +11,7 @@ t1=0
 s=input("enter the word to be searched ")
 c=0
 for sentence in read:
-    line=sentence.spilt()
+    line=sentence.strip()
     t+=1
 for each in line:
     line2=each
