@@ -12,10 +12,6 @@ while True:
     name = input ("Enter name")
     d["member_no"] = no
     d["member_name"]= name
-    if ask_if_more_entries():
-            pass
-    else:
-        break
     def ask_if_more_entries():
         question = input("Do you want to continue? (Y/N)")
         if question == "Y":
@@ -26,3 +22,7 @@ while True:
             print("You entered a invalid response. You can only enter in Y or N. Have another chance.")
             ans = ask_if_more_entries()
             return ans
+    if ask_if_more_entries():
+            pass
+    else:
+        break
