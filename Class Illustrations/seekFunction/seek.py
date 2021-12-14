@@ -1,4 +1,4 @@
-f = open("Class Illustrations/seekFunction/TextFile.txt","rw")
+f = open("Class Illustrations/seekFunction/TextFile.txt","r+")
 print(f.tell())
 f.seek(0)
 print(f.read(3))
