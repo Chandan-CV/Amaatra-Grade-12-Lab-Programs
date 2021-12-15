@@ -1,2 +1,3 @@
-t =(100,100)
-print(t*2)
+import pickle
+f = open("practical programs/pg5/data.dat","rb")
+print(pickle.load(f))
